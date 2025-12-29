@@ -1,2 +1,123 @@
-# Sql-Data-Warehouse-Project
-Building a modern data warehouse with SQL Server, including ETL processes, data modelling, and analytics.
+# Data Warehouse and Analytics Project
+
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+
+---
+## 🏗️ Data Architecture
+
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](Docs/Data%20Architecture%20Design.png)
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.  
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.  
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+---
+## 📖 Project Overview
+
+This project involves:
+
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.  
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.  
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.  
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+- SQL Development  
+- Data Architect  
+- Data Engineering  
+- ETL Pipeline Developer  
+- Data Modeling  
+- Data Analytics  
+
+---
+
+## 🛠️ Important Links & Tools
+
+Everything is for Free!
+- **[Datasets](datasets/):** Access to the project dataset (csv files).  
+- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.  
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.  
+- **[GitHub](https://github.com/Asaxena7124):** My GitHub profile and repository hub.  
+- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.  
+- **[Notion]([https://www.notion.com/templates/sql-data-warehouse-project](https://www.notion.so/SQL-Data-Warehouse-Project-2c4315be68da8078aa4afbb7efc9e2f4)):** Get the Project Template from Notion.  
+- **[Notion Project Steps](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4):** Access to All Project Phases and Tasks.
+
+---
+
+## 🚀 Project Requirements
+
+### Building the Data Warehouse (Data Engineering)
+
+#### Objective
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+#### Specifications
+- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.  
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.  
+- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.  
+- **Scope**: Focus on the latest dataset only; historization of data is not required.  
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+---
+
+### BI: Analytics & Reporting (Data Analysis)
+
+#### Objective
+Develop SQL-based analytics to deliver detailed insights into:
+- **Customer Behavior**  
+- **Product Performance**  
+- **Sales Trends**
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+For more details, refer to [docs/requirements.md](docs/requirements.md).
+
+## 📂 Repository Structure
+
+```text
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # ETL techniques and methods
+│   ├── data_architecture.drawio        # Project architecture diagram
+│   ├── data_catalog.md                 # Dataset metadata and column descriptions
+│   ├── data_flow.drawio                # Data flow diagram
+│   ├── data_models.drawio              # Star schema data models
+│   ├── naming-conventions.md           # Naming standards
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Raw data ingestion scripts
+│   ├── silver/                         # Data cleansing and transformations
+│   ├── gold/                           # Analytical models
+│
+├── tests/                              # Data quality and validation scripts
+│
+├── README.md                           # Project documentation
+├── LICENSE                             # License information
+├── .gitignore                          # Git ignore rules
+└── requirements.txt                    # Project requirements
+```
+## ☕ Stay Connected
+
+Let’s stay in touch! Feel free to connect with me on the following platforms:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anubhavsaxena7124)  
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Asaxena7124)
+
+---
+
+
+## 🌟 About Me
+
+Hi there! I’m **Anubhav Saxena** 👋 — a Data Enthusiast passionate about data engineering, analytics, and solving real-world business problems using data. This repository showcases one of my portfolio projects built using best practices in data warehousing and analytics.
+
+Feel free to connect with me:
+
+Let’s build amazing data solutions together! 🚀
+
+
+
